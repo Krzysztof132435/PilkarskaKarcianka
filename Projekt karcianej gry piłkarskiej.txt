@@ -1,0 +1,15 @@
+Projekt karcianej gry piłkarskiej
+
+Problem do rozwiązania: Gra OpenSource, w której każdy gracz, za darmo, może zagrać z innym graczem online lub botem w karcianą grę piłkarską. 
+
+Cel aplikacji: Gracz będzie mógł założyć konto oraz zalogować/wylogować się na/z konto. Będzie mógł na podobnych zasadach jak w trybie Draft z gier serii FIFA/EA FC, zbudować swój skład z określonym budżetem, z przez siebie wybranych kart z określonym kosztem. Następnie będzie mógł zagrać z innym graczem online lub botem w trybie "Wojny". Gracze będą mogli tworzyć własne turnieje. 
+
+Użytkownik/aktorzy: gracze.
+
+Zakres projektu: rejestracja/logowanie, wybieranie kart piłkarzy do składu, rogrywka z przeciwnikiem.
+
+Wymagania funkcjonalne: System rejestracji i logowania, System budowania składu, system wybierania piłkarzy, system doboru piłkarzy do pulii wyboru dla gracza na podstawie losowości oraz dostępnego budżetu przez gracza, rozgrywka turowa z innym graczem lub botem.
+
+Wymagania niefunkcjonalne: gra działa płynnie w przeglądarce internetowej, komunikacja w czasie rzeczywistym, całość napisana w JavaScript
+
+Pytania/Ryzyka na starcie: system nagród za wygranie meczu lub turnieju - co ma być przyznawane w nagrodę za zwycięstwa, skoro na nic nie można wydać tej nagrody, więc po co grać? Możliwa mała liczba graczy w konkretnym czasie aby zagrać Multiplayera. 
